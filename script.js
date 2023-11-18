@@ -1,7 +1,7 @@
-let certti =  prompt ('YOU CAN GET THE CERTIFICATE');
+let certti =  prompt ('YOU CAN GET THE CERTIFICATE 2 + 2 = ??');
 
 let netice;
-if (certti == 'game certificat ' ) {
+if (certti == '4 ' ) {
 netice = 'YOU CAN GET THE CERtFICAT';
 
 }else {
