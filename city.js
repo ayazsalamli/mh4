@@ -1,7 +1,10 @@
-let city = 'Washington';
+let city =  promt ('WHAT IS THE CAPITA: US');
+let netice ;
 if (city == 'Washington' ) {
-console.log('CAPITAL OF US');
+netice = ('CAPITAL OF US');
 
 }else {
-    console.log('NO NO TRUE')
+    netice = ('NO NO TRUE')
 }
+
+document.getElementById('cer').innerHTML = netice;

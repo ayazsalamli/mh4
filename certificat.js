@@ -1,7 +1,10 @@
-let certti = 'game certificat';
+let certti =  promt ('YOU CAN GET THE CERTIFICATE');
+
+let netice;
 if (certti == 'game certificat ' ) {
-console.log('YOU CAN GET THE CERtIFICAT');
+netice = ('YOU CAN GET THE CERtIFICAT');
 
 }else {
-    console.log('YOU CAN NOT TAKE IT')
+    netice = ('YOU CAN NOT TAKE IT')
 }
+document.getElementById('cer').innerHTML = netice;

@@ -1,7 +1,10 @@
-let weather = '20';
-if (weather == '20' ) {
-console.log('NORMAL TEMPERATURE');
+let weather = promt ('WHAT IS THE TEMPERATURE');
+
+let netice;
+if (weather > '15' ) {
+netice = ('NORMAL TEMPERATURE');
 
 }else {
-    console.log('COLD COLD COLD')
+    netice = ('COLD COLD COLD')
 }
+document.getElementById('cer').innerHTML = netice;
